@@ -26,7 +26,7 @@ References:
 ```YAML
       - shell: bash
         run: |
-          echo 'Test upload artifact' > output.log
+          echo 'Test upload artifact to file' > output.log
       - name: Upload output file
         uses: actions/upload-artifact@v2
         with:
